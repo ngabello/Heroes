@@ -16,6 +16,8 @@ import { HeroRoutingModule }    from './app-routing.module';
 import { DashboardComponent }   from './components/dashboard/dashboard.component';
 import { HeroSearchComponent }  from './components/hero-search/hero-search.component';
 
+import {HighlightDirective} from './directives/highlight/highlight.directive';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,6 +25,7 @@ import { HeroSearchComponent }  from './components/hero-search/hero-search.compo
     HeroComponent,
     DashboardComponent,
     HeroSearchComponent,
+    HighlightDirective,
   ],
   imports: [
     BrowserModule,
