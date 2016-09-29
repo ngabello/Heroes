@@ -8,7 +8,6 @@ import { HttpModule } from '@angular/http';
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService }  from './in-memory-data.service';
 
-
 import { AppComponent }         from './app.component';
 import { HeroComponent }        from './components/hero/hero.component';
 import { HeroDetailComponent }  from './components/hero-detail/hero-detail.component';
